@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: NetworkPolicy
 metadata:
-  name: db-test
+  name: allow-backend-to-db
 spec:
   podSelector:
     matchLabels:
